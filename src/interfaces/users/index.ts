@@ -4,6 +4,15 @@ export interface IUserRequest {
     password: string
     isAdm: boolean
 }
+export interface IUserRequestWithoutpassword {
+    id: string
+    name: string
+    email: string
+    isAdm: boolean
+    isActive: boolean
+    createdAt: Date
+    updatedAt: Date
+}
 
 export interface IUser {
     id: string
